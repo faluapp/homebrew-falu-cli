@@ -6,29 +6,29 @@ class Falu < Formula
   desc "Falu CLI"
   homepage "https://falu.io"
   license "MIT"
-  version "2.0.1"
+  version "2.1.0"
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/faluapp/falu-cli/releases/download/2.0.1/falu-2.0.1-linux-arm64.tar.gz"
-      sha256 "d5fea44d04275814d5b8ed0cbc20a9019536f0326e2241ede6c4e11386348f76"
+      url "https://github.com/faluapp/falu-cli/releases/download/2.1.0/falu-2.1.0-linux-arm64.tar.gz"
+      sha256 "872d00a0a33a863761d97235cd314df5ffd8157c62fc7a7fe616f78d4c9a0b0c"
     end
 
     if Hardware::CPU.intel?
-      url "https://github.com/faluapp/falu-cli/releases/download/2.0.1/falu-2.0.1-linux-x64.tar.gz"
-      sha256 "9a179c05912c6c2cd086f221f2c6e1923cfc963070ef294929851027e5675d1f"
+      url "https://github.com/faluapp/falu-cli/releases/download/2.1.0/falu-2.1.0-linux-x64.tar.gz"
+      sha256 "f537698c9e9bfc16bfff7013ef35e7df33a9d789b52370b66f0c14a637fffb7c"
     end
   end
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/faluapp/falu-cli/releases/download/2.0.1/falu-2.0.1-osx-arm64.tar.gz"
-      sha256 "34646c0b0100edd64bef08b6b1937b50b9e01ac746bc581a358ec590fb74cf1c"
+      url "https://github.com/faluapp/falu-cli/releases/download/2.1.0/falu-2.1.0-osx-arm64.tar.gz"
+      sha256 "c2c69d46f74683309f7f7f07fad9a93a3dff219f5e894ca791ad12257265814e"
     end
 
     if Hardware::CPU.intel?
-      url "https://github.com/faluapp/falu-cli/releases/download/2.0.1/falu-2.0.1-osx-x64.tar.gz"
-      sha256 "6d8cd7d9e074633151a3a656b2cfec65f913fc9366e698fea0ca6d309c573c97"
+      url "https://github.com/faluapp/falu-cli/releases/download/2.1.0/falu-2.1.0-osx-x64.tar.gz"
+      sha256 "75c20bba42607cd4f61a16fb8ee305af79fdb056a4eaa6e2c3d819b9f9bcbf97"
     end
   end
 
